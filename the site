@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My Blog</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+		<h1>Welcome to my Blog</h1>
+	</header>
+	<main>
+		<section class="featured-posts">
+			<h2>Featured Posts</h2>
+			<article class="featured-post">
+				<h3>Post Title</h3>
+				<p>Post content goes here...</p>
+				<a href="#">Read More</a>
+			</article>
+			<article class="featured-post">
+				<h3>Post Title</h3>
+				<p>Post content goes here...</p>
+				<a href="#">Read More</a>
+			</article>
+		</section>
+		<section class="latest-posts">
+			<h2>Latest Posts</h2>
+			<article class="latest-post">
+				<h3>Post Title</h3>
+				<p>Post content goes here...</p>
+				<a href="#">Read More</a>
+			</article>
+			<article class="latest-post">
+				<h3>Post Title</h3>
+				<p>Post content goes here...</p>
+				<a href="#">Read More</a>
+			</article>
+		</section>
+		<section class="about-me">
+			<h2>About Me</h2>
+			<img src="profile.jpg" alt="My Profile Picture">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris hendrerit nisl in mi pulvinar, ut vehicula enim vehicula. Praesent ultrices aliquam consequat. Praesent posuere felis id mauris varius, ut gravida nunc aliquam. Sed vulputate, nisi ac malesuada mollis, enim arcu elementum ipsum, quis faucibus felis ipsum in justo. Duis tristique euismod commodo. </p>
+		</section>
+	</main>
+	<footer>
+		<p>Copyright © 2023</p>
+	</footer>
+</body>
+</html>
